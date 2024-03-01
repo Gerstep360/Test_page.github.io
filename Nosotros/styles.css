@@ -1,0 +1,173 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #dbe8f5;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul.nav-main {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul.nav-main li {
+    margin-right: 20px;
+}
+
+nav ul.nav-main li.logo a {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+    box-shadow: none;
+    margin-top: -5px;
+}
+
+nav ul.nav-main li.logo a img {
+    width: 65px; /* Cambia este valor al tamaño deseado */
+}
+
+nav ul.nav-main li.logo a:hover {
+    background-color: transparent;
+    color: inherit;
+    transform: translateY(-10px);
+}
+
+nav ul.nav-main li.logo a:active {
+    transform: translateY(-1px);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: #8ab6d6;
+    color: #fff;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+nav ul li a:hover {
+    background-color: #6a94b5;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+nav ul li a:active {
+    transform: translateY(-1px);
+}
+
+section {
+    padding: 50px 0;
+    text-align: center;
+    color: #333;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #dbe8f5;
+    position: relative;
+    bottom:0;
+    min-height: (100%-80px);
+}
+
+/* Estilos para la sección Nosotros */
+
+#nosotros {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 50px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center; /* Añadido para centrar el contenido */
+    height: 555px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto; /* Centra horizontalmente */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.product-grid div {
+    display: flex;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+.product-grid div .text-container {
+    flex-grow: 1; /* El texto ocupará todo el espacio disponible */
+}
+.product-grid div:hover {
+    transform: translateY(-10px);
+}
+
+.product-grid div img {
+    width: 200px; /* Ancho fijo para todas las imágenes */
+    height: auto; /* Altura ajustada automáticamente para mantener la relación de aspecto */
+    border-radius: 5px;
+    margin-right: 20px; /* Margen a la derecha para separar la imagen del texto */
+}
+
+.product-grid div h3 {
+    margin: 0;
+    color: #000000;
+    font-size: 20px;
+    text-align: left; /* Alineamos el título a la izquierda */
+}
+
+.product-grid div p {
+    margin: 0;
+   
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: left; /* Alineamos el texto a la izquierda */
+}
+
+.product-grid div p {
+    margin: -10;
+    margin-top: 50px;
+    margin-left: -179px;
+    color: #333333;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+

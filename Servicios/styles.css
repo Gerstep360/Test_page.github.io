@@ -1,0 +1,182 @@
+/* Estilos base */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background-color: #dbe8f5;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul.nav-main {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul.nav-main li {
+    margin-right: 20px;
+}
+
+nav ul.nav-main li.logo a {
+    background-color: transparent;
+    color: inherit;
+    padding: 0;
+    box-shadow: none;
+    margin-top: -5px;
+}
+
+nav ul.nav-main li.logo a img {
+    width: 65px; /* Cambia este valor al tamaño deseado */
+}
+
+nav ul.nav-main li.logo a:hover {
+    background-color: transparent;
+    color: inherit;
+    transform: translateY(-10px);
+}
+
+nav ul.nav-main li.logo a:active {
+    transform: translateY(-1px);
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    background-color: #8ab6d6;
+    color: #fff;
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+nav ul li a:hover {
+    background-color: #6a94b5;
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+nav ul li a:active {
+    transform: translateY(-1px);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 0px; /* Modifica este valor según sea necesario */
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+    padding: 0px;
+}
+
+.btn_2 {
+    background-color: #fff;
+    padding: 30px; /* Aumentar el padding para aumentar el tamaño */
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.btn_2:hover {
+    transform: translateY(-10px);
+    background-color: #dbe8f5;
+}
+
+.btn_2:active {
+    transform: translateY(-1px);
+}
+
+.btn_2 img {
+    width: 100%;
+    max-height: 100px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.category-label {
+    display: inline-block;
+    color: #030303;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-radius: 5px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #8ab6d6;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #6a94b5;
+}
+.btn_Inicio {
+    
+    position: relative; /* Agregar posición relativa para usar top, left, etc. */
+    top: -90px; /* Cambiar la posición vertical */
+    left: 125px; /* Cambiar la posición horizontal */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    display: inline-block; /* Cambiar a inline-block para que ocupe solo el ancho de la imagen */
+}
+
+.btn_Inicio:hover {
+    transform: translateY(-10px);
+}
+
+.btn_Inicio:active {
+    transform: translateY(-1px);
+}
+
+.btn_Inicio img {
+    width: 45%;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #dbe8f5;
+    position: absolute;
+    bottom:0;
+    width: 97.4%;
+    margin-top: 100px;
+}

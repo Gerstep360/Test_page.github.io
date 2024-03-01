@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Mapsa Perú</title>
+    <link rel="stylesheet" href="/Servicios/Recursos/Paginas/styles.css"> <!-- Ruta al archivo CSS en el directorio principal -->
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-main">
+                <li class="logo"><a href="/Inicio/Inicio.html"><img src="/Recursos Generales\LOGO.png" alt="Logo"></a></li>
+                <li><a href="/Productos/Productos.html">Productos</a></li>
+                <li><a href="/Servicios/Servicios.html">Servicios</a></li>
+                <li><a href="/Contactanos/Contactanos.html">Contáctanos</a></li>
+                <li><a href="/Nosotros/Nosotros.html">Nosotros</a></li>
+                <li><a href="#Descargar Brochure">Descargar Brochure</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="product-info">
+        <div class="product-image">
+            <img src="\Productos\Recursos\Imagenes\Categoria\Categoria%231\Productos\Producto%231.jpg" alt="Nombre del producto">
+        </div>
+        <div class="product-details">
+            <h2>Mantenimiento</h2>
+            <p>Descripción corta del producto...</p>
+            <p>Más información sobre el producto...</p>
+        </div>
+        <section id="contacto">
+            <h2>Cotizar</h2>
+            <form id="contacto-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="ruc">RUC:</label>
+                    <input type="text" id="ruc" name="ruc" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="text" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="btn">Cotizar</button>
+                </div>
+            </form>
+        </section>   
+    </div>
+
+
+    <footer>
+        <p>Copyright © 2024 Mapsa Perú</p>
+    </footer>
+    <script src="/Servicios/Recursos/Paginas/Mantenimiento/script.js"></script>
+</body>
+</html>
